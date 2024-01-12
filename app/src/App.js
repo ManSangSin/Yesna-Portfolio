@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Menu from "./Component/Menu";
+import RightSide from "./Component/RightSide";
 
 function App() {
-  return <div>YESNA</div>;
+  return (
+    <div>
+      <Menu />
+      <RightSide />
+    </div>
+  );
 }
 
 export default App;

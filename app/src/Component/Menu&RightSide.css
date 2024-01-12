@@ -1,0 +1,57 @@
+.Menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #22223b;
+    overflow-y: auto;
+}
+.RightSide{
+    background-color: #f2e9e4;
+    height: 140vh;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+}
+.my-pic{
+    width: 145px;
+    margin: 15px auto;
+    display: block;
+    border: 8px solid #4A4E69;
+    border-radius: 2rem;
+}
+
+.myName{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    color: #F2E9E4;
+}
+
+.myIcon{
+    border: 5px solid #4A4E69;
+    border-radius: 0.5rem;
+    padding: 10px;
+    background-color: #4A4E69;
+    margin-left: 35px;
+}
+
+.main-pic{
+    margin-left: 15%;
+    width: 85%;
+    height: 100vh;
+    background: url("../Images/Untitled\ design.png") right ;
+}
