@@ -49,9 +49,15 @@
     margin-left: 35px;
 }
 
+.myIcon:hover{
+    background-color: rgb(156, 180, 229);
+    border: 5px solid rgb(156, 180, 229);
+}
+
 .main-pic{
     margin-left: 15%;
     width: 85%;
     height: 100vh;
-    background: url("../Images/Untitled\ design.png") right ;
+    background: url("../Images/Untitled\ design.png") top center;
+    background-size: cover;
 }

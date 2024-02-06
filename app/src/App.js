@@ -1,12 +1,12 @@
-import "./App.css";
-import Menu from "./Component/Menu";
-import RightSide from "./Component/RightSide";
+import './App.css';
+import Menu from './Component/Menu';
+import RightSide from './Component/RightSide';
 
 function App() {
   return (
     <div>
-      <Menu />
-      <RightSide />
+     <Menu />
+     <RightSide />
     </div>
   );
 }
