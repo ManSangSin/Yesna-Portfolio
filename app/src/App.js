@@ -1,11 +1,8 @@
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  return (
-    <div>
-     YESNA
-    </div>
-  );
+  return <div>YESNA</div>;
 }
 
 export default App;
